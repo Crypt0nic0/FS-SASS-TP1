@@ -1,8 +1,87 @@
 @font-face {
   font-family: "fontInter";
-  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(../font/Inter-ExtraBold.ttf);
 }
 @font-face {
   font-family: "fontMerri";
   src: url(../font/Merriweather-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+}
+
+body {
+  background: url(../img/bg.jpg) fixed center/cover;
+}
+
+.btn {
+  border: 2px solid black;
+  background: transparent;
+  font: 0.7rem fontInter, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+}
+.btn:hover {
+  background: black;
+  color: whitesmoke;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .header-container h1 {
+  text-transform: uppercase;
+  font: 5rem fontInter, sans-serif;
+  color: whitesmoke;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+header .header-container p {
+  font: italic 1.3rem fontMerri, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 50px;
+}
+header .header-container a,
+header .header-container a:visited {
+  font: 1.5rem fontInter, sans-serif;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+header .header-container a:hover,
+header .header-container a:visited:hover {
+  color: black;
 }/*# sourceMappingURL=index.css.map */

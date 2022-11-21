@@ -1,6 +1,8 @@
+// ====== FONT ====== //
+
 @font-face {
     font-family: "fontInter";
-    src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../font/Inter-ExtraBold.ttf);
 }
 
 @font-face {
@@ -10,3 +12,28 @@
 
 $font1: fontInter, sans-serif;
 $font2: fontMerri, sans-serif;
+
+// ====== COLOR ====== //
+
+$color1: black;
+$color2: whitesmoke;
+$color3: rgb(148, 148, 148);
+$color4: rgb(99, 99, 99);
+$color5: rgb(196, 196, 196);
+
+
+
+
+// ====== GENERAL SETTINGS ====== //
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+}
+
+body{
+    background: url(../img/bg.jpg) fixed center/cover;
+}

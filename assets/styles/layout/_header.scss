@@ -1,0 +1,49 @@
+header{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header-container{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            text-transform: uppercase;
+            font: 5rem $font1 ;
+            color: $color2;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        p{
+            font: italic 1.3rem $font2;
+            color: $color2;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        a,
+        a:visited{
+            font: 1.5rem $font1;
+            color: $color2;
+            border: 2px solid $color2;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            transition: 0.3s;
+
+            &:hover{
+                color: $color1;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.btn{
+    border: 2px solid $color1;
+    background: transparent;
+    font: 0.7rem $font1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: $color1;
+    &:hover{
+        background: $color1;
+        color: $color2;
+    }
+}
+
+a,
+a:visited{
+    text-decoration: none;
+}
