@@ -40,7 +40,7 @@ a:visited {
 }
 
 header {
-  height: 90vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@ header .header-container h1 {
   letter-spacing: 2px;
 }
 header .header-container p {
-  font: italic 1.3rem fontMerri, sans-serif;
+  font: italic 1rem fontMerri, sans-serif;
   color: whitesmoke;
   text-align: center;
   margin-top: 50px;
@@ -83,5 +83,68 @@ header .header-container a:visited {
 }
 header .header-container a:hover,
 header .header-container a:visited:hover {
+  color: black;
+}
+
+nav {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  background: rgba(255, 255, 255, 0.319);
+  height: 8vh;
+}
+nav .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 75%;
+}
+nav .nav-menu li {
+  text-transform: uppercase;
+  height: 100%;
+}
+nav .nav-menu li a,
+nav .nav-menu li a:visited {
+  display: block;
+  height: 100%;
+  color: whitesmoke;
+  padding: 28px 25px;
+  font: 0.7rem fontInter, sans-serif;
+  letter-spacing: 2px;
+}
+nav .nav-menu li a:hover,
+nav .nav-menu li a:visited:hover {
+  background: whitesmoke;
+  color: black;
+}
+nav .nav-menu li:first-child {
+  background: whitesmoke;
+}
+nav .nav-menu li:first-child a,
+nav .nav-menu li:first-child a:visited {
+  color: black;
+}
+nav .nav-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+}
+nav .nav-social li {
+  height: 100%;
+  width: 100%;
+}
+nav .nav-social li a,
+nav .nav-social li a:visited {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  padding: 22px 0;
+}
+nav .nav-social li a:hover,
+nav .nav-social li a:visited:hover {
   color: black;
 }/*# sourceMappingURL=index.css.map */
