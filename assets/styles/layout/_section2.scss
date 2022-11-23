@@ -1,0 +1,54 @@
+.section-2{
+    background: $color2;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: 1px solid $color5;
+    position: relative;
+
+    &:after{
+        content:"";
+        height: 100%;
+        width: 1px;
+        background: $color5;
+        position: absolute;
+        left: 50%
+    }
+
+    .s2-container{
+        padding: 50px;
+
+        h5{
+            color: $color4;
+            font: 0.8rem $font2;
+            text-align: center;
+        }
+
+        h3{
+            color: $color1;
+            font: 1.1rem $font1;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        p{
+            color: $color4;
+            font: 0.8rem $font2;
+            line-height: 25px;
+            margin: 20px 0;
+        }
+
+        a{
+            width: 170px;
+        }
+    }
+}
