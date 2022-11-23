@@ -30,6 +30,7 @@ body {
   color: black;
   width: 200px;
   text-align: center;
+  margin: 20px auto;
 }
 .btn:hover {
   background: black;
@@ -164,7 +165,7 @@ nav .nav-social li a:visited:hover {
   margin: 0 auto;
 }
 .section-1 .s1-container {
-  padding: 50px 80px 80px;
+  padding: 50px 80px;
 }
 .section-1 .s1-container h4 {
   color: rgb(99, 99, 99);
@@ -189,4 +190,27 @@ nav .nav-social li a:visited:hover {
   position: absolute;
   right: 0;
   bottom: 50%;
+}
+.section-1 .s1-container h2 {
+  color: black;
+  font: 2.5rem fontInter, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+  margin: 50px auto 30px;
+  letter-spacing: 2px;
+}
+.section-1 .s1-container p {
+  color: rgb(99, 99, 99);
+  font: italic 0.8rem fontMerri, sans-serif;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.section-1 .s1-container .s1-img {
+  margin: 30px 0;
+}
+.section-1 .s1-container .s1-img img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

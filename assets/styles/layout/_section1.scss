@@ -5,7 +5,7 @@
     margin: 0 auto;
 
     .s1-container{
-        padding: 50px 80px 80px;
+        padding: 50px 80px;
 
         h4{
             color: $color4;
@@ -32,6 +32,33 @@
                 right: 0;
                 bottom: 50%;
 
+            }
+        }
+
+        h2{
+            color: $color1;
+            font: 2.5rem $font1;
+            text-transform: uppercase;
+            text-align: center;
+            width: 60%;
+            margin: 50px auto 30px;
+            letter-spacing: 2px;
+        }
+
+        p{
+            color: $color4;
+            font: italic 0.8rem $font2;
+            text-align: center;
+            width: 60%;
+            margin: 0 auto;
+            line-height: 30px;
+        }
+
+        .s1-img{
+            margin: 30px 0;
+
+            img{
+                width: 100%;
             }
         }
 
