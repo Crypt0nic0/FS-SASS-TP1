@@ -164,5 +164,29 @@ nav .nav-social li a:visited:hover {
   margin: 0 auto;
 }
 .section-1 .s1-container {
-  padding: 50px 80px;
+  padding: 50px 80px 80px;
+}
+.section-1 .s1-container h4 {
+  color: rgb(99, 99, 99);
+  font: 1rem fontMerri, sans-serif;
+  text-align: center;
+  position: relative;
+}
+.section-1 .s1-container h4:before {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: rgb(196, 196, 196);
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
+.section-1 .s1-container h4:after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: rgb(196, 196, 196);
+  position: absolute;
+  right: 0;
+  bottom: 50%;
 }/*# sourceMappingURL=index.css.map */
