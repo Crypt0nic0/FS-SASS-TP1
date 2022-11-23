@@ -27,13 +27,13 @@ nav{
                 font: 0.7rem $font1;
                 letter-spacing: 2px;
                 &:hover{
-                    background: $color2;
+                    background: $colornav;
                     color: $color1;
                 }
             }        
         }
         li:first-child{
-            background: $color2;
+            background: $colornav;
             a,
             a:visited{
                 color:$color1;

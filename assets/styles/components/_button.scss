@@ -8,6 +8,8 @@
     cursor: pointer;
     transition: 0.3s;
     color: $color1;
+    width: 200px;
+    text-align: center;
     &:hover{
         background: $color1;
         color: $color2;
@@ -17,4 +19,5 @@
 a,
 a:visited{
     text-decoration: none;
+    display: block;
 }

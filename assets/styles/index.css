@@ -28,6 +28,8 @@ body {
   cursor: pointer;
   transition: 0.3s;
   color: black;
+  width: 200px;
+  text-align: center;
 }
 .btn:hover {
   background: black;
@@ -37,6 +39,7 @@ body {
 a,
 a:visited {
   text-decoration: none;
+  display: block;
 }
 
 header {
@@ -118,11 +121,11 @@ nav .nav-menu li a:visited {
 }
 nav .nav-menu li a:hover,
 nav .nav-menu li a:visited:hover {
-  background: whitesmoke;
+  background: rgb(206, 206, 206);
   color: black;
 }
 nav .nav-menu li:first-child {
-  background: whitesmoke;
+  background: rgb(206, 206, 206);
 }
 nav .nav-menu li:first-child a,
 nav .nav-menu li:first-child a:visited {
@@ -152,4 +155,14 @@ nav .nav-social li a:visited {
 nav .nav-social li a:hover,
 nav .nav-social li a:visited:hover {
   color: black;
+}
+
+.section-1 {
+  background: whitesmoke;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.section-1 .s1-container {
+  padding: 50px 80px;
 }/*# sourceMappingURL=index.css.map */
