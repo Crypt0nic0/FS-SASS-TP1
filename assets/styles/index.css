@@ -426,4 +426,23 @@ nav .nav-social li a:visited:hover {
 .section-form i:hover {
   color: black;
   border: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+  .section-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-form:after {
+    background: transparent;
+  }
+  .section-form .info-container {
+    height: 400px;
+  }
+  .section-form .info-container .info-part {
+    grid-template-columns: 30% 60%;
+  }
+  .section-form .info-container ul {
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=index.css.map */

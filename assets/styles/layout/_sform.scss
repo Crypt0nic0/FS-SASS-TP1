@@ -96,3 +96,26 @@
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    .section-form{
+        display: flex;
+        flex-direction: column;
+
+        &:after{
+            background: transparent;
+        }
+
+        .info-container{
+            height: 400px;
+
+            .info-part{
+                grid-template-columns: 30% 60%;
+            }
+
+            ul{
+                justify-content: space-around;
+            }
+        }
+    }
+}
