@@ -333,6 +333,15 @@ nav .nav-social li a:visited:hover {
   width: 170px;
 }
 
+@media screen and (max-width: 800px) {
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2:after {
+    background: transparent;
+  }
+}
 .section-form {
   background: rgb(228, 228, 228);
   width: 80%;
