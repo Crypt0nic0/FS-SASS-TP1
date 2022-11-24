@@ -94,6 +94,9 @@ header .header-container a:visited:hover {
   header .header-container {
     width: 80%;
   }
+  header .header-container h1 {
+    font-size: 3.5rem;
+  }
 }
 @media screen and (max-width: 800px) {
   header .header-container {
@@ -133,6 +136,7 @@ nav .nav-menu li a:visited {
   padding: 0 25px;
   font: 0.7rem fontInter, sans-serif;
   letter-spacing: 2px;
+  text-align: center;
 }
 nav .nav-menu li a:hover,
 nav .nav-menu li a:visited:hover {
@@ -172,6 +176,16 @@ nav .nav-social li a:visited:hover {
   color: black;
 }
 
+@media screen and (max-width: 800px) {
+  nav .nav-menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  nav .nav-social {
+    display: none;
+  }
+}
 .section-1 {
   background: whitesmoke;
   width: 80%;

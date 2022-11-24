@@ -26,6 +26,7 @@ nav{
                 padding: 0 25px;
                 font: 0.7rem $font1;
                 letter-spacing: 2px;
+                text-align: center;
                 &:hover{
                     background: $colornav;
                     color: $color1;
@@ -63,6 +64,20 @@ nav{
                     color: $color1;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        .nav-menu{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            
+        }
+        .nav-social{
+            display: none;
         }
     }
 }
