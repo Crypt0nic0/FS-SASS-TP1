@@ -261,4 +261,90 @@ nav .nav-social li a:visited:hover {
 }
 .section-2 .s2-container a {
   width: 170px;
+}
+
+.section-form {
+  background: rgb(228, 228, 228);
+  width: 80%;
+  max-width: 1100px;
+  margin: 30px auto 60px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+}
+.section-form:after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  background: rgb(196, 196, 196);
+}
+.section-form .form-container {
+  margin: 30px;
+}
+.section-form form {
+  display: flex;
+  flex-direction: column;
+}
+.section-form label, .section-form h4 {
+  text-transform: uppercase;
+  color: rgb(99, 99, 99);
+  font: 0.7rem fontInter, sans-serif;
+  letter-spacing: 2px;
+}
+.section-form input, .section-form textarea {
+  border: 1px solid rgb(148, 148, 148);
+  background: rgb(228, 228, 228);
+  height: 30px;
+  margin: 10px 0;
+  resize: none;
+  padding: 5px;
+  font: 0.8rem fontMerri, sans-serif;
+}
+.section-form textarea {
+  height: 120px;
+}
+.section-form button {
+  color: rgb(99, 99, 99);
+  border: 1px solid rgb(99, 99, 99);
+  margin: 10px 0;
+}
+.section-form .info-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+.section-form .info-part {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  align-items: center;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  padding: 0 30px;
+}
+.section-form .info-part:last-child {
+  border-bottom: none;
+}
+.section-form p {
+  color: rgb(148, 148, 148);
+  font: 0.7rem fontMerri, sans-serif;
+}
+.section-form ul {
+  display: flex;
+}
+.section-form i {
+  border: 1px solid rgb(148, 148, 148);
+  color: rgb(99, 99, 99);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 0 10px 0 0;
+  transition: 0.3s;
+}
+.section-form i:hover {
+  color: black;
+  border: 1px solid black;
 }/*# sourceMappingURL=index.css.map */
