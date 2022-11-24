@@ -64,3 +64,55 @@
 
     }
 }
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .section-1{
+        .s1-container{
+            padding: 50px 60px;
+            h4{
+                font-size: 0.9rem;
+                &:before{
+                    width: 35%;
+                }
+                &:after{
+                    width: 35%;
+                }
+            }
+
+            h2{
+                width: 70%;
+                font-size: 2.2rem;
+            }
+
+            p{
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .section-1{
+        .s1-container{
+            padding: 50px 40px;
+            h4{
+                font-size: 0.8rem;
+                &:before{
+                    width: 25%;
+                }
+                &:after{
+                    width: 25%;
+                }
+            }
+
+            h2{
+                width: 80%;
+                font-size: 1.8rem;
+            }
+
+            p{
+                width: 80%;
+            }
+        }
+    }
+}
